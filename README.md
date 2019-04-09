@@ -1,5 +1,5 @@
-#Hacker News Clone
-#This project is built using REACT, REDUX, REACT-ROUTER.
+# Hacker News Clone
+# This project is built using REACT, REDUX, REACT-ROUTER.
 # Also, BOOTSTRAP 4 / REACTSTRAP, API 
 # It is a hobby project.  
 
