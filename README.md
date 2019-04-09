@@ -1,3 +1,12 @@
+#Hacker News Clone
+#This project is built using REACT, REDUX, REACT-ROUTER.
+# Also, BOOTSTRAP 4 / REACTSTRAP, API 
+# It is a hobby project.  
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +75,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+# HackerNewsClone
