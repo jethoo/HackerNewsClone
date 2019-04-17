@@ -1,7 +1,11 @@
 # Hacker News Clone
-# This project is built using REACT, REDUX, REACT-ROUTER.
-# Also, BOOTSTRAP 4 / REACTSTRAP, API 
-# It is a hobby project.  
+#Top 20 stories are fetched from the hacker news backend using axios api and they are stored in the redux store.
+#Similarly, top comments for those stories are also fetched using api and stored in the redux store.
+#Those stories and comments are made available to the components in React, via redux store, to render the view.
+ 
+# This project is built using "create-react-app"
+# Some of the technologies used are React, Redux, React-Router, ES6, REST API, Reactstrap, React Animations. 
+# 
 
 
 

@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import '../styles/StoryComponent.css';
 
-var styles = {
-    backgroundColor: '#F6F6EF'
-};
+
+
 
 class Story extends Component {
 
@@ -10,14 +11,43 @@ class Story extends Component {
         super(props);
     }
 
+   
     render(){
-        return ( 
-            <div style={styles}>
-                    <h1>Jeewan</h1>
-                    <h1>Bhusal</h1>
-                    <h1>Software Engineer</h1>
-                    <h1>Computer Programmer</h1>
-                    <h1></h1>
+
+      function RenderStories(stories){
+            if(stories!= null)
+                return (
+                    stories.map((story) => {
+                        return (
+                            <div className='container' >
+                                <div className="row">
+                                    <div className="col-xs-6">
+                                        <li key={story.id} >
+                                            <a href={story.url} target='_blank' className="home-page" ><p>{story.title}</p></a>
+                                            <p>{story.score} points by {story.by} |  <Link to={`/home/${story.id}`} style={{textDecoration:'none'}}>{story.descendants} comments </Link> </p>
+                                        </li>
+                                     </div>
+                                </div>
+                            </div>
+                         );
+                    })
+                );
+              else 
+                return (<div></div>);
+        }
+
+
+       return ( 
+            <div className="container" className="container-background">
+               <div className="row" >
+                    <div className="col-12 ">
+                        <ol >
+                           
+                           {RenderStories(this.props.topStory)}
+
+                        </ol>
+                    </div>
+                </div>
             </div>
         );
     }
