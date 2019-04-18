@@ -21,7 +21,7 @@ class Story extends Component {
                         return (
                             <div className='container' >
                                 <div className="row">
-                                    <div className="col-xs-6">
+                                    <div className="col-12">
                                         <li key={story.id} >
                                             <a href={story.url} target='_blank' className="home-page" ><p>{story.title}</p></a>
                                             <p>{story.score} points by {story.by} |  <Link to={`/home/${story.id}`} style={{textDecoration:'none'}}>{story.descendants} comments </Link> </p>

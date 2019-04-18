@@ -13,7 +13,7 @@ function RenderComments({comment}){
                             <Stagger in>
                                 <div className='container' >
                                     <div className="row">
-                                        <div className="col-xs-6">
+                                        <div className="col-12">
                                              <Fade in>
                                                 <li key={comments.id} className="comment-list">
                                                         <p className="comment-design">  ➣ comment by {comments.by}</p>
