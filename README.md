@@ -1,5 +1,5 @@
 # Hacker News Clone
-#Top 20 stories are fetched from the hacker news backend using axios api and they are stored in the redux store.
+#Top 20 stories are fetched from the hacker news(https://news.ycombinator.com/) backend using axios api and they are stored in the redux store.
 #Similarly, top comments for those stories are also fetched using api and stored in the redux store.
 #Those stories and comments are made available to the components in React, via redux store, to render the view.
  
