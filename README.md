@@ -5,7 +5,7 @@
  
 # This project is built using "create-react-app"
 # Some of the technologies used are React, Redux, React-Router, ES6, REST API, Reactstrap, React Animations. 
-#LIVE APP LINK -->  https://floating-harbor-32475.herokuapp.com 
+#LIVE APP LINK -->  https://master.dxzcnk7xe5xpa.amplifyapp.com/
 
 
 
